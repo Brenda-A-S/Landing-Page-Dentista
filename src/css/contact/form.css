@@ -1,0 +1,31 @@
+form {
+    width: 100%;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--branco-3);
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+    font-family: "Roboto", sans-serif;
+}
+
+form button {
+    background-color: var(--azul-1);
+    border: none;
+    cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: var(--azul-1);
+}

@@ -1,0 +1,15 @@
+a.btn,
+button.btn {
+    max-width: max-content;
+    padding: 12px 24px;
+    background-color: var(--azul-1);
+    color: var(--branco-1);
+    border-radius: 10px;
+    font-family: "Secular One", sans-serif;
+    filter: drop-shadow(2px 2px 3px #00000054);
+}
+
+a.btn:hover,
+button.btn:hover  {
+    background-color: var(--azul-2);
+}

@@ -1,0 +1,53 @@
+.contacts {
+    padding: 40px 0;
+}
+
+.contacts h2 {
+    font-size: 40px;
+}
+
+.contacts ul {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: 24px;
+    filter: drop-shadow(2px 2px 3px #00000007);
+}
+
+.contacts ul li {
+    padding: 24px 32px;
+}
+
+.contacts ul li span {
+    font-weight: 600;
+}
+
+.local {
+    display: flex;
+    filter: drop-shadow(2px 2px 3px #00000007);
+    background-color: #fff;
+    border-radius: 5px;
+    gap: 16px;
+    padding: 32px;
+}
+
+.local div {
+    width: 100%;
+}
+
+.local div>* {
+    margin-bottom: 16px;
+}
+
+.local span {
+    font-weight: 550;
+}
+
+@media (max-width: 600px) {
+    .local {
+        flex-wrap: wrap;
+        padding: 16px;
+    }
+}

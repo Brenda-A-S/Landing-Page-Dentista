@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: .2s;
+    border: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--branco-2);
+}
+
+a {
+    color: inherit;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body::-webkit-scrollbar {
+    width: 11px;
+    background-color: whitesmoke;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #70B5C9;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

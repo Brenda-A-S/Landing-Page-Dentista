@@ -1,0 +1,9 @@
+@import url(./global/cores.css);
+@import url(./global/global.css);
+@import url(./global/tipografia.css);
+@import url(./global/componentes.css);
+@import url(./global/header.css);
+@import url(./global/footer.css);
+@import url(./banner/banner.css);
+@import url(./contact/contacts.css);
+@import url(./contact/form.css);
