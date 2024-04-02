@@ -1,5 +1,5 @@
-# Agenda de contatos
-Projeto desenvolvido durante curso Engenheiro de Front-end da EBAC, com HTML, CSS e JQuery.
+# Landing Page de Dentista
+Landing Page de dentista desenvolvido com HTML e CSS.
 
 # Resultado 📌
 ![127 0 0 1_5500_index html](https://github.com/Brenda-A-S/Loja-Smartphones-HTML-CSS/assets/69852246/929fbcec-cfc0-4a62-bcfa-110771385254)
