@@ -29,3 +29,23 @@ input:focus,
 textarea:focus {
     outline-color: var(--azul-1);
 }
+
+.success-msg {
+    color: #008000;
+    background-color: var(--branco-2);
+    padding: 8px;
+    width: max-content;
+    border-radius: 4px;
+    display: none;
+}
+
+.error-msg {
+    background-color: #ff0000;
+    color: #fff;
+    display: none;
+}
+
+input.error{
+    border: 1px solid #f00;
+    outline-color: #f00;
+}

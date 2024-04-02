@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -87,15 +87,20 @@
                     <h3 class="secular-one-regular">
                         Entre em contato
                     </h3>
-                    <form action="">
-                        <input type="text" placeholder="Seu nome" required>
-                        <input type="email" placeholder="Seu e-mail" required>
-                        <input type="tel" placeholder="Seu telefone (opcional)">
-                        <textarea placeholder="Sua mensagem" required></textarea>
+                    <form id="formulario-contato" action="">
+                        <input id="nome-usuario" type="text" placeholder="Seu nome" required>
+                        <p class="error-msg">
+                            O nome não está completo
+                        </p>
+                        <input id="email-usuario" type="email" placeholder="Seu e-mail" required>
+                        <input id="telefone-usuario" type="tel" placeholder="Seu telefone (opcional)">
+                        <textarea id="mensagem-usuario" placeholder="Sua mensagem" required></textarea>
                         <button type="submit" class="btn">
                             Enviar
                         </button>
                     </form>
+                    <p class="success-msg">
+                    </p>
                 </div>
             </div>
             <ul>
@@ -120,6 +125,8 @@
             Direitos reservados.
         </p>
     </footer>
+
+    <script src="./src/js/main.js"></script>
 </body>
 
 </html>
